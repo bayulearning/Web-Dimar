@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Stride Velocity X">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#101010" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)" />
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="-200" y2="800" /><line x1="50" y1="0" x2="-150" y2="800" /><line x1="100" y1="0" x2="-100" y2="800" /><line x1="150" y1="0" x2="-50" y2="800" /><line x1="200" y1="0" x2="0" y2="800" /><line x1="250" y1="0" x2="50" y2="800" /><line x1="300" y1="0" x2="100" y2="800" /><line x1="350" y1="0" x2="150" y2="800" /><line x1="400" y1="0" x2="200" y2="800" /><line x1="450" y1="0" x2="250" y2="800" /><line x1="500" y1="0" x2="300" y2="800" /><line x1="550" y1="0" x2="350" y2="800" /><line x1="600" y1="0" x2="400" y2="800" /><line x1="650" y1="0" x2="450" y2="800" /><line x1="700" y1="0" x2="500" y2="800" /><line x1="750" y1="0" x2="550" y2="800" /><line x1="800" y1="0" x2="600" y2="800" /><line x1="850" y1="0" x2="650" y2="800" />
+  </g>
+  <text x="64" y="96" fill="#ffffff" opacity="0.65" font-family="Arial, sans-serif" font-size="20" letter-spacing="8">STRIDE ATHLETICS</text>
+  <text x="64" y="128" fill="#1c1c1c" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">RUNNING</text>
+  <g transform="translate(400 430) rotate(0) translate(-400 -430)">
+    <path d="M120 520 C150 470 210 442 290 432 L356 422 C420 412 470 432 520 462 L620 502 C660 517 682 546 676 576 L671 602 L132 602 C110 602 100 582 106 556 Z" fill="#1c1c1c" />
+    <path d="M120 520 C150 470 210 442 290 432 L356 422 C420 412 470 432 520 462 L620 502 C660 517 682 546 676 576 L660 566 C650 532 620 508 590 496 L500 458 C460 438 420 428 372 434 L296 444 C222 454 172 478 142 524 Z" fill="#ffffff" opacity="0.25" />
+    <rect x="104" y="590" width="580" height="40" rx="20" fill="#f5f5f5" />
+    <rect x="104" y="590" width="580" height="14" rx="7" fill="#c9c9c9" />
+    <g stroke="#111111" stroke-width="7" stroke-linecap="round" opacity="0.85">
+      <line x1="330" y1="452" x2="380" y2="500" />
+      <line x1="360" y1="444" x2="410" y2="492" />
+      <line x1="390" y1="440" x2="440" y2="488" />
+      <line x1="420" y1="444" x2="470" y2="492" />
+    </g>
+    <path d="M560 512 C596 520 626 538 640 562" stroke="#111111" stroke-width="6" fill="none" opacity="0.5" />
+  </g>
+  <text x="64" y="726" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="bold">Stride Velocity X</text>
+  <text x="64" y="758" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="16">Gambar ilustrasi produk</text>
+</svg>

@@ -1,0 +1,38 @@
+import { Router } from "express";
+import { healthRouter } from "./health.routes.js";
+import { authRouter } from "./auth.routes.js";
+import { addressRouter } from "./address.routes.js";
+import { cartRouter } from "./cart.routes.js";
+import { wishlistRouter } from "./wishlist.routes.js";
+import { orderRouter } from "./order.routes.js";
+import { shippingRouter } from "./shipping.routes.js";
+import { paymentRouter } from "./payment.routes.js";
+import { productRouter } from "./product.routes.js";
+import { categoryRouter } from "./category.routes.js";
+import { notificationRouter } from "./notification.routes.js";
+import { contactRouter } from "./contact.routes.js";
+import { helpRouter } from "./help.routes.js";
+import { newsRouter } from "./news.routes.js";
+import { sitemapRouter } from "./sitemap.routes.js";
+import { docsRouter } from "./docs.routes.js";
+import { adminRouter } from "./admin.routes.js";
+
+export const apiRouter = Router();
+
+apiRouter.use("/health", healthRouter);
+apiRouter.use("/auth", authRouter);
+apiRouter.use("/addresses", addressRouter);
+apiRouter.use("/cart", cartRouter);
+apiRouter.use("/wishlist", wishlistRouter);
+apiRouter.use("/orders", orderRouter);
+apiRouter.use("/shipping", shippingRouter);
+apiRouter.use("/payments", paymentRouter);
+apiRouter.use("/products", productRouter);
+apiRouter.use("/categories", categoryRouter);
+apiRouter.use("/notifications", notificationRouter);
+apiRouter.use("/contact", contactRouter);
+apiRouter.use("/help", helpRouter);
+apiRouter.use("/news", newsRouter);
+apiRouter.use("/sitemap", sitemapRouter);
+apiRouter.use("/docs", docsRouter);
+apiRouter.use("/admin", adminRouter);
